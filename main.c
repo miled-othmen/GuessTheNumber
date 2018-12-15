@@ -9,7 +9,7 @@
 int main(void) {
     char ch[0], chaine[100] = "9", rch[100];
     int i = 0, res, j, nb = 0, tres[8];
-    int msec = 0, trigger = 120000; /* in ms */
+    int msec = 0, trigger = 120000; /* in milliseconde */
     clock_t before = clock();
     printf("Started ... \n");
 
